@@ -43,13 +43,6 @@ const Item = ({ id, item, list, setList, complete }) => {
             <input
                 type="text"
                 value={item}
-                style={{
-                    border: "none",
-                    outline: "none",
-                    backgroundColor: "transparent",
-                    color: "white",
-                    fontSize: "20px",
-                }}
                 onChange={handleItem}
                 className={complete ? "complete" : ""}
             />
