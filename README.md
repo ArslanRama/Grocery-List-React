@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[Click for DEMO](https://infallible-fermat-c4bb58.netlify.app/ "Shopping List" )
+[Shopping List DEMO](https://infallible-fermat-c4bb58.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
