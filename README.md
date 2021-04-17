@@ -1,7 +1,8 @@
-# Getting Started with Create React App
 # Grocery-List-React
+
 [Shopping List DEMO](https://infallible-fermat-c4bb58.netlify.app/)
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
