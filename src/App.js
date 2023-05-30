@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Item from "./components/Item";
 import { v4 as uuidv4 } from "uuid";
 
 const arr = () => {
-  let data = localStorage.getItem("data");
-  if (data) return JSON.parse(localStorage.getItem("data"));
-  else return [];
+  const data = localStorage.getItem("data");
+  return data ? JSON.parse(data) : [];
 };
 
 function App() {
@@ -14,19 +13,19 @@ function App() {
   const [list, setList] = useState(arr);
 
   const handleSubmit = (e) => {
-    const newItem = {
-      id: uuidv4(),
-      item: item,
-      complete: false,
-    };
     e.preventDefault();
     if (item && item.length <= 25) {
-      setList([...list, newItem]);
+      const newItem = {
+        id: uuidv4(),
+        item: item,
+        complete: false,
+      };
+      setList((prevList) => [...prevList, newItem]);
       setItem("");
     }
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     localStorage.setItem("data", JSON.stringify(list));
   }, [list]);
 
@@ -48,13 +47,13 @@ function App() {
         <button className="btn" type="submit">
           Add Items
         </button>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
       </form>
       <div>
-        {list.map((c, id) => (
+        {list.map((c) => (
           <Item
-            key={id}
+            key={c.id}
             id={c.id}
             item={c.item}
             list={list}

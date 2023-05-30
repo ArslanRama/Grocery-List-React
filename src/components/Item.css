@@ -1,15 +1,29 @@
-.complete{
+.complete {
     text-decoration: line-through;
     text-decoration-color: navy;
-  
 }
-.item{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      color:white;
-   
-}  
-p{
-    font-family: cursive;
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #f2f2f2; /* Updated background color */
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: background-color 0.3s ease; /* Added transition */
+}
+
+.item:hover {
+    background-color: #e5e5e5; /* Hover background color */
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
 }
