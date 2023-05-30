@@ -15,19 +15,19 @@ A simple to-do list application built with React.
 ## Folder Structure
 
 Grocery-List-React/
-  ├── public/
-  │   ├── index.html
-  │   └── favicon.ico
-  ├── src/
-  │   ├── components/
-  │   │   ├── Item.js
-  │   │   └── Item.css
-  │   ├── App.js
-  │   ├── index.js
-  │   └── App.css
-  ├── README.md
-  ├── package.json
-  └── .gitignore
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── src/
+│ ├── components/
+│ │ ├── Item.js
+│ │ └── Item.css
+│ ├── App.js
+│ ├── index.js
+│ └── App.css
+├── README.md
+├── package.json
+└── .gitignore
 
 ## Installation
 
