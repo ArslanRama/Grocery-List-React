@@ -2,11 +2,10 @@ Here's a README.md file for the Grocery-List-React project:
 
 # Grocery-List-React
 
+[DEMO](https://infallible-fermat-c4bb58.netlify.app/)
+
 Updated Mock Up Image
 ![Mockup Image](/public/todo-list.png)
-
-
-[Shopping List DEMO](https://infallible-fermat-c4bb58.netlify.app/)
 
 A simple to-do list application built with React.
 
