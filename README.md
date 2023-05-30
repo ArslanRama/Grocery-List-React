@@ -14,6 +14,7 @@ A simple to-do list application built with React.
 
 ## Folder Structure
 
+```
 Grocery-List-React/
 ├── public/
 │ ├── index.html
@@ -28,6 +29,7 @@ Grocery-List-React/
 ├── README.md
 ├── package.json
 └── .gitignore
+```
 
 ## Installation
 
