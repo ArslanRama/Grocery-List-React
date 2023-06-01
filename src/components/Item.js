@@ -49,8 +49,8 @@ const Item = ({ id, item, list, setList, complete }) => {
   };
 
   return (
-    // If complete is true, the resulting element will have both the "item" and "complete" classes.
-    // If complete is false or falsy, the element will only have the "item" class
+    // ternary operator... If complete is true, the resulting element will have both the "item" and "complete" classes.
+    // If complete is false, the element will only have the "item" class
     <div className={`item ${complete ? "complete" : ""}`}>
       <input type="text" value={item} onChange={handleItem} />
       <input

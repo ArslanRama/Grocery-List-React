@@ -32,6 +32,7 @@ function App() {
         item: item,
         complete: false,
       };
+      // Spread operator (...): to create a new array by spreading the existing prevList array and adding the newItem to the end.
       setList((prevList) => [...prevList, newItem]);
       setItem("");
     }
